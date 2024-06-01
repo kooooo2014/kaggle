@@ -1,0 +1,10 @@
+window.location.href = document.querySelector("#rendered-kernel-content").getAttribute("src")
+
+
+document.querySelector("body").style.overflowY="visible"
+document.querySelectorAll(".input").forEach((element) => {
+  element.classList.add("notranslate")
+})
+document.querySelectorAll(".output_wrapper").forEach((element) => {
+  element.classList.add("notranslate")
+})
